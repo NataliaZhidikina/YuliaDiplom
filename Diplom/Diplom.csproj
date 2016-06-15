@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0AB91A2-F49F-4521-8ECB-79CA55EB00D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Diplom</RootNamespace>
+    <AssemblyName>Diplom</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algiritm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Algiritm1.Designer.cs">
+      <DependentUpon>Algiritm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Algiritm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Algiritm2.Designer.cs">
+      <DependentUpon>Algiritm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Algiritm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Algiritm3.Designer.cs">
+      <DependentUpon>Algiritm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Algiritm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Algiritm4.Designer.cs">
+      <DependentUpon>Algiritm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HELP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HELP.Designer.cs">
+      <DependentUpon>HELP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HELP1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HELP1.Designer.cs">
+      <DependentUpon>HELP1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HELP2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HELP2.Designer.cs">
+      <DependentUpon>HELP2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HELP3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HELP3.Designer.cs">
+      <DependentUpon>HELP3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HELP4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HELP4.Designer.cs">
+      <DependentUpon>HELP4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Histori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Histori.Designer.cs">
+      <DependentUpon>Histori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Histori1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Histori1.Designer.cs">
+      <DependentUpon>Histori1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Histori2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Histori2.Designer.cs">
+      <DependentUpon>Histori2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Histori3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Histori3.Designer.cs">
+      <DependentUpon>Histori3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Histori4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Histori4.Designer.cs">
+      <DependentUpon>Histori4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nachalo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nachalo.Designer.cs">
+      <DependentUpon>Nachalo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="O_nas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="O_nas.Designer.cs">
+      <DependentUpon>O_nas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Glavnay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glavnay.Designer.cs">
+      <DependentUpon>Glavnay.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Algiritm1.resx">
+      <DependentUpon>Algiritm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Algiritm2.resx">
+      <DependentUpon>Algiritm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Algiritm3.resx">
+      <DependentUpon>Algiritm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Algiritm4.resx">
+      <DependentUpon>Algiritm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glavnay.resx">
+      <DependentUpon>Glavnay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HELP.resx">
+      <DependentUpon>HELP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HELP1.resx">
+      <DependentUpon>HELP1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HELP2.resx">
+      <DependentUpon>HELP2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HELP3.resx">
+      <DependentUpon>HELP3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HELP4.resx">
+      <DependentUpon>HELP4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Histori.resx">
+      <DependentUpon>Histori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Histori1.resx">
+      <DependentUpon>Histori1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Histori2.resx">
+      <DependentUpon>Histori2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Histori3.resx">
+      <DependentUpon>Histori3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Histori4.resx">
+      <DependentUpon>Histori4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nachalo.resx">
+      <DependentUpon>Nachalo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="O_nas.resx">
+      <DependentUpon>O_nas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Начало.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
